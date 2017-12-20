@@ -2,6 +2,13 @@ div
 * {
   box-sizing: border-box;
 }
+
+row{
+display: flex;
+justify-content: space-between;
+  flex-direction: column;
+}
+
 div p ha{
   float:right;
   background-color: pink;
