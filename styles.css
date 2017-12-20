@@ -1,0 +1,95 @@
+div 
+* {
+  box-sizing: border-box;
+}
+div p ha{
+  float:right;
+  background-color: pink;
+  padding: 6px ;
+  border:solid black;
+  font-family: helvetica;
+
+
+  margin-bottom: 2px;
+}
+div p hb{
+  float:right;
+  background-color: red;
+  padding: 6px ;
+  border:solid black;
+  font-family: helvetica;
+  text-decoration-color: white;
+  color:white;
+
+
+  margin-bottom: 2px;
+}
+div p hc{
+  float:right;
+  background-color:orange;
+  padding: 6px ;
+  border:solid black;
+  font-family: helvetica;
+
+
+  margin-bottom: 2px;
+}
+
+h1 {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+p {
+  border: 1px solid black;
+  background-color: grey;
+  width: 95%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: bold black;
+  padding border-left: 5px;
+  
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4 {
+    float: left;
+    border: 1px ;
+  }
+  .col-lg-1 {
+    width: 33.3%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 33.3%;
+  }
+  
+  
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    border: 1px ;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+  
+  
+ 
+}
